@@ -1,22 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-const items = [
-  "2 lb salmon",
-  "5 sprigs fresh rosemary",
-  "2 tablespoons olive oil",
-  "2 small lemons",
-  "1 teaspoon kosher salt",
-  "4 cloves of chopped garlic",
-];
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "./index.css";
+
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "@fortawesome/fontawesome-free/js/all.min.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App items={items} />
+    <App />
   </React.StrictMode>
 );
 
