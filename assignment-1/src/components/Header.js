@@ -3,10 +3,10 @@ import image_logo from "../assets/LTH.png";
 export default function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-sm background-primary shadow">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            <img src={image_logo} alt="logo" style={{ width: 40 }} />
+            <img src={image_logo} alt="logo" style={{ width: 70 }} />
           </NavLink>
           <button
             className="navbar-toggler"
@@ -30,12 +30,12 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
-                  <i class="fa-regular fa-user"></i> About
+                  <i className="fa-regular fa-user"></i> About Me
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/services">
-                  <i class="fa-regular fa-folder-open"></i> Services
+                  <i className="fa-regular fa-folder-open"></i> Services
                 </NavLink>
               </li>
               <li className="nav-item">

@@ -1,3 +1,5 @@
+// File: App.js Name: Lit Tung Hui Student ID: 301387861 Date: 2024-09-28
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";

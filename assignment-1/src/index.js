@@ -1,3 +1,5 @@
+// File: index.js Name: Lit Tung Hui Student ID: 301387861 Date: 2024-09-28
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
