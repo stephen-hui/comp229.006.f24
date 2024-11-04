@@ -10,6 +10,7 @@ function App({ items }) {
           <Li key={i} item={item}></Li>
         ))}
       </ul>
+      <p>testing</p>
     </div>
   );
 }
